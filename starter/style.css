@@ -11,6 +11,16 @@ html {
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: 6rem;
+  color: #f1e8eb;
+}
+
+h3 {
+  font-size: 1.6rem;
+  color: #f1edee;
+}
+
 body {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
@@ -20,6 +30,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 /* LAYOUT */
@@ -34,6 +46,10 @@ main {
   border-radius: 9px;
   overflow: hidden;
   display: flex;
+}
+
+.top-div {
+  padding-bottom: 2rem;
 }
 
 .player {
